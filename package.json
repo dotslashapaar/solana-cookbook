@@ -1,7 +1,6 @@
 {
   "name": "cookbook",
   "version": "1.0.0",
-
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -11,9 +10,12 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@solana-program/compute-budget": "0.5.4",
-    "@solana-program/system": "^0.6.2",
-    "@solana/web3.js": "1.98.0",
-    "typescript": "^5.6.3"
+    "@metaplex-foundation/mpl-token-metadata": "^3.3.0",
+    "@metaplex-foundation/umi": "^0.9.2",
+    "@metaplex-foundation/umi-bundle-defaults": "^0.9.2",
+    "@solana/spl-token": "^0.4.9",
+    "@solana/web3.js": "^1.98.0",
+    "arweave": "^1.15.5",
+    "bs58": "^6.0.0"
   }
 }
